@@ -13,3 +13,5 @@ Dazu werden zuerst die Grundkonzepte der Quantentheorie aus ihrer historischen E
 
 Das Buch gibt einen umfassenden Überblick über die grundlegenden Konzepte, die wichtigsten Anwendungen und die formale Struktur der Quantenmechanik.
 
+[Link zur Buchwebsite](https://qc.physik-online.ch)
+
