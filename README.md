@@ -1,7 +1,7 @@
 # JupyterNBs
 In diesem Repository finden Sie  alle **Jupyter Notebooks** zum Buch *Von der Quantenmechanik zum Quantencomputer*.
 
-<img src="Bilder\cover.jpg" width="250 px">  
+<img src="Bilder\cover.jpg" width="300 px">     <img src="Bilder\Sachbuch.jpg" width="300 px">
 
 **Rückentext**
 
