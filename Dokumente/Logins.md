@@ -21,4 +21,6 @@ Siehe dazu [docs.quantum.ibm.com/migration-guides/qiskit-1.0-features](https://d
 
 Die in diesem Repository enthaltenen Notbooks laufen gut unter Qiskit bis Version 0.46. Ab Version >1 bitte den o. g. Migrationsguide beachten.
 
+Vielleicht bringt dieser [Link](https://schrodinteq.github.io/venv/) eine Lösung. Er beschreibt, wie man die Version 0.46 von Qiskit installieren kann.
+
 
