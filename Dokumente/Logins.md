@@ -12,5 +12,5 @@ Hier muss man eine E-Mail Adresse eingeben, damit es weiter geht. Anschliessend 
 - Damit lässt sich jetzt Qiskit installieren: pip install qiskit
 - Für die Visualisierungen benötigen Sie noch die Bibliothek *MatPlotLib*. Installation mittels: pip install matplotlib
 
-
+Um Jupyter Lab zu starten, starten sie die Konsole Anaconda Prompt, wechseln in ihre virtuelle Umgebung (mit activate ...) und starten anschliessend das Jupyter Lab (mit start jupyter lab). Danach wird das Jupyter Lab in einem Browswerfenster geladen.
 
