@@ -14,4 +14,9 @@ Hier muss man eine E-Mail Adresse eingeben, damit es weiter geht. Anschliessend 
 
 Um Jupyter Lab zu starten, starten sie die Konsole Anaconda Prompt, wechseln in ihre virtuelle Umgebung (mit activate ...) und starten anschliessend das Jupyter Lab (mit start jupyter lab). Danach wird das Jupyter Lab in einem Browswerfenster geladen.
 
+## Probleme
+
+Mit dieser Installation wird die neueste Qiskit-Version installiert (>2.0.0). Ab Version 1 werden gewisse Funktionen nicht mehr unterstützt, wie z. B. execute oder BasicAer.
+Siehe dazu [docs.quantum.ibm.com/migration-guides/qiskit-1.0-features](https://docs.quantum.ibm.com/migration-guides/qiskit-1.0-features)
+
 
