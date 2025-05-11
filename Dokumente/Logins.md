@@ -19,4 +19,6 @@ Um Jupyter Lab zu starten, starten sie die Konsole Anaconda Prompt, wechseln in 
 Mit dieser Installation wird die neueste Qiskit-Version installiert (>2.0.0). Ab Version 1 werden gewisse Funktionen nicht mehr unterstützt, wie z. B. execute oder BasicAer.
 Siehe dazu [docs.quantum.ibm.com/migration-guides/qiskit-1.0-features](https://docs.quantum.ibm.com/migration-guides/qiskit-1.0-features)
 
+Die in diesem Repository enthaltenen Notbooks laufen gut unter Qiskit bis Version 0.46. Ab Version >1 bitte den o. g. Migrationsguide beachten.
+
 
