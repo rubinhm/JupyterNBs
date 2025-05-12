@@ -9,7 +9,7 @@ Hier muss man eine E-Mail Adresse eingeben, damit es weiter geht. Anschliessend 
 - Um in Ihre Umgebung zu kommen geben Sie am Prompt ein: activate *Umgebungsname*. Vor dem Prompt sehen Sie jetzt in runden Klammern ihre Umgebung (*Umgebungsname*)
 - Jetzt kann das Jupyter Lab installiert werden mit der Eingabe: conda install -c conda-forge jupyterlab
 - Nun muss das Paketinstallationsprogramm von Python (pip) instaliert werden, mit der Eingabe: conda install pip
-- Damit lässt sich jetzt Qiskit installieren: pip install qiskit
+- Damit lässt sich jetzt Qiskit installieren: pip install qiskit==0.44.1
 - Für die Visualisierungen benötigen Sie noch die Bibliothek *MatPlotLib*. Installation mittels: pip install matplotlib
 
 Um Jupyter Lab zu starten, starten sie die Konsole Anaconda Prompt, wechseln in ihre virtuelle Umgebung (mit activate ...) und starten anschliessend das Jupyter Lab (mit start jupyter lab). Danach wird das Jupyter Lab in einem Browswerfenster geladen.
