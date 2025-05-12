@@ -6,7 +6,7 @@ Hier muss man eine E-Mail Adresse eingeben, damit es weiter geht. Anschliessend 
 - Nach der Installation startet man Anaconda Prompt (miniconda 3). Dies ist die Konsole für die Eingabe der weiteren Befehle.
 - Es wird empfohlen, zuerst eine virtuelle Umgebung einzurichten. Dazu gibt man ein: conda create --name  '*Umgebungsname*'.
  '*Umgebungsname*' ersetzen Sie durch den von Ihnen gewählten Namen. Im Installationsverzeichnis /miniconda3/envs/wird ein Ordner für Ihre virtuelle Umgebung mit dem von Ihnen gewählten Namen (*Umgebungsname*) erstellt.
-- Um in Ihre Umgebung zu kommen geben Sie am Prompt ein: activate *Umgebungsname*. Vor dem Prompt sehen Sie jetzt in runden Klammern ihre Umgrbung (*Umgebungsname*)
+- Um in Ihre Umgebung zu kommen geben Sie am Prompt ein: activate *Umgebungsname*. Vor dem Prompt sehen Sie jetzt in runden Klammern ihre Umgebung (*Umgebungsname*)
 - Jetzt kann das Jupyter Lab installiert werden mit der Eingabe: conda install -c conda-forge jupyterlab
 - Nun muss das Paketinstallationsprogramm von Python (pip) instaliert werden, mit der Eingabe: conda install pip
 - Damit lässt sich jetzt Qiskit installieren: pip install qiskit
