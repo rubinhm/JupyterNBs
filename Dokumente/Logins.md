@@ -20,7 +20,7 @@ Anstatt die Notebooks ständig den neuesten Softwareversionen anzupassen, ist es
 - Damit lässt sich jetzt die gewünschte Qiskit-Version installieren. Wir wählen: pip install qiskit==0.43.1
 - Nun benötigen wir noch weitere Module für die verschiedenen Visualisierungen:
 -  - *MatPlotLib* Installation mittels: pip install matplotlib
-   - *PyLatexEnc* Installation mittels: pip install palatexenc
+   - *PyLatexEnc* Installation mittels: pip install pylatexenc
    - *Seaborn* Installation mittels: pip install seaborn
    - *IBM Runtime* Installation mittels: pip install qiskit_ibm_runtime
 - Die Qiskit-IBM-Runtime benötigen Sie nur, falls Sie Ihre Schaltkreise auf einen IBM-Quantencomputer ausführen wollen. Für die Beispiele im Buch genügt ein Simulator, wie z. B. der QASM-Simulator.
