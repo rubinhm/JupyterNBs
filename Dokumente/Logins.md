@@ -1,4 +1,11 @@
-# Qiskit und Miniconda
+# Miniconda  und Qiskit lokal einrichten
+
+Qiskit ist ein auf der Programmiersprache Python basierendes Software Entwicklungspaket (SDK) von IBM. Minikonda ist ein Software Paketmanager, der bereits Python enthält. Deshalb muss zuerst Miniconda installiert werden. In Miniconda kann dann Qiskit und anschliessend das Jupyter Lab installiert werden. Mit dem Jupyter Lab können die Notebooks zu diesem Buch laufen gelassen und editiert werden.
+
+Seit der Drucklegung dieses Buches haben sich die Platformen (IBMQ, Qiskit und Python) weiterentwickelt. Die zur Drucklegung dieses Buches entwickelten Jupyter Notebooks laufen bereits mit den neuesten Versionen von Qiskit und Pythtn nicht mehr fehlerfrei. 
+
+Anstatt die Notebooks ständig den neuesten Softwareversionen anzupassen, ist es einfacher diejenigen Versionen von Python und Qiskit zu installieren, mit denen die Notebooks stabil laufen. Zur Installation verwenden wir hier Minikonda3 in der Version mit Python 3.11. Diese Version kann unter [https://repo.anaconda.com/miniconda/](https://repo.anaconda.com/miniconda/) heruntergeladen werden. Es stehen Versionen für Windows, MacOS und Linux zur verfügung. Für Windows und ein 64-Bit System suchen Sie Miniconda3-py311_25.3.1-1-Windows-x86_64.exe und laden dieses Installationsprogramm auf ihren Rechner.
+
 
 - Download Link: [www.anaconda.com/download](https://www.anaconda.com/download)
 Hier muss man eine E-Mail Adresse eingeben, damit es weiter geht. Anschliessend kann man die gewünschte Installation wählen (Windowa, Mac, Linux)
