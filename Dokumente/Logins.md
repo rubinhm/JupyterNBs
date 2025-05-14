@@ -12,11 +12,11 @@ Anstatt die Notebooks ständig den neuesten Softwareversionen anzupassen, ist es
 
 - Führen Sie das heruntergeladene Installationsprogramm aus.
 - Nach der Installation suchen Sie das Konsolenprogramm Anaconda Prompt (miniconda 3) oder Anaconda PowerShell. Dies sind die Konsolen für die Eingabe der weiteren Befehle. In der Eingabezeile sehen Sie (base)...
+- Installieren Sie in Base: conda install -c conda-forge jupyterlab
 - Für unsere Qiskit-Installation erstellen wir zuerst eine virtuelle Umgebung. Dazu gibt man ein: conda create --name  '*Umgebungsname*'.
  '*Umgebungsname*' ersetzen Sie durch den von Ihnen gewählten Namen. Im Installationsverzeichnis /miniconda3/envs/wird ein Ordner für Ihre virtuelle Umgebung mit dem von Ihnen gewählten Namen (*Umgebungsname*) erstellt.
 - Um in Ihre Umgebung zu kommen geben Sie am Prompt ein: activate *Umgebungsname*. Vor dem Prompt sehen Sie jetzt in runden Klammern ihre Umgebung (*Umgebungsname*)
 - Hier laden wir zuers den Python Paketmanager pip herunter. Dazu geben Sie ein: conda install pip
-- Jetzt kann das Jupyter Lab installiert werden mit der Eingabe: pip install jupyterlab
 - Damit lässt sich jetzt die gewünschte Qiskit-Version installieren. Wir wählen: pip install qiskit==0.43.1
 - Nun benötigen wir noch weitere Module für die verschiedenen Visualisierungen:
 -  - *MatPlotLib* Installation mittels: pip install matplotlib
