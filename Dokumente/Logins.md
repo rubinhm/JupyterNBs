@@ -29,7 +29,7 @@ Hier muss man eine E-Mail Adresse eingeben, damit es weiter geht. Anschliessend 
 
 ## Erstellen einer virtuellen Umgebung
 
-Eine virtuelle Umgebung benötigen Sie, falls Sie eine neuere Version von Python oder Qiskit installieren wollen oder falls Sie bereits eine Pyton und Qiskit Version installiert haben, müssen Sie die oben angegebenen Schritte in dieser neuen virtuellen Umgebung ausführen.
+Eine virtuelle Umgebung benötigen Sie, falls Sie eine neuere Version von Python oder Qiskit installieren wollen oder falls Sie bereits eine Python und Qiskit Version installiert haben, müssen Sie die oben angegebenen Schritte in dieser neuen virtuellen Umgebung ausführen.
 Dazu geben sie in Ihrer (base)-Umgebung ein: conda create --name  '*Umgebungsname*'.
  '*Umgebungsname*' ersetzen Sie durch den von Ihnen gewählten Namen. Im Installationsverzeichnis /miniconda3/envs/wird ein Ordner für Ihre virtuelle Umgebung mit dem von Ihnen gewählten Namen (*Umgebungsname*) erstellt.
 - Um in Ihre Umgebung zu kommen geben Sie am Prompt ein: activate *Umgebungsname*. Vor dem Prompt sehen Sie jetzt in runden Klammern ihre Umgebung (*Umgebungsname*)
