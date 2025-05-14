@@ -10,18 +10,17 @@ Anstatt die Notebooks ständig den neuesten Softwareversionen anzupassen, ist es
 
 ## Installationsschritte
 
-- Führen Sie das heruntergeladene Installationsprogramm aus.
-- Nach der Installation suchen Sie das Konsolenprogramm Anaconda Prompt (miniconda 3) oder Anaconda PowerShell. Dies sind die Konsolen für die Eingabe der weiteren Befehle. In der Eingabezeile sehen Sie (base)...
-- Installieren Sie das Jupyter Lab in (Base): pip install jupyterlab / falls pip nicht installiert ist: conda install -c conda-forge jupyterlab
-- (Nur falls  der Python Paketmanager pip nicht vorhanden sein sollte, installieren Sie ihn jetzt mittels: conda install pip)
-- Nun wird die gewünschte Qiskit-Version installiert. Wir wählen: pip install qiskit==0.43.1
-- Nun benötigen wir noch weitere Module für die verschiedenen Visualisierungen:
--  - *MatPlotLib* Installation mittels: pip install matplotlib
+1. Führen Sie das heruntergeladene Installationsprogramm aus.
+2. Nach der Installation suchen Sie das Konsolenprogramm Anaconda Prompt (miniconda 3) oder Anaconda PowerShell. Dies sind die Konsolen für die Eingabe der weiteren Befehle. In der Eingabezeile sehen Sie (base)...
+3. Installieren Sie das Jupyter Lab in (Base): pip install jupyterlab / falls pip nicht installiert ist: conda install -c conda-forge jupyterlab
+4. (Nur falls  der Python Paketmanager pip nicht vorhanden sein sollte, installieren Sie ihn jetzt mittels: conda install pip)
+5. Nun wird die gewünschte Qiskit-Version installiert. Wir wählen: pip install qiskit==0.43.1
+6. Nun benötigen wir noch weitere Module für die verschiedenen Visualisierungen:
+   - *MatPlotLib* Installation mittels: pip install matplotlib
    - *PyLatexEnc* Installation mittels: pip install pylatexenc
    - *Seaborn* Installation mittels: pip install seaborn
-   - *IBM Runtime* Installation mittels: pip install qiskit_ibm_runtime
-- Die Qiskit-IBM-Runtime benötigen Sie nur, falls Sie Ihre Schaltkreise auf einen IBM-Quantencomputer ausführen wollen. Für die Beispiele im Buch genügt ein Simulator, wie z. B. der QASM-Simulator.
-- Um das Jupyter Lab zu starten, öffnen sie die Konsole Anaconda Prompt oder Anaconda PowerShell, wechseln in ihre virtuelle Umgebung (mit activate ...) und starten anschliessend das Jupyter Lab (mit start jupyter lab). Danach wird das Jupyter Lab in einem Browswerfenster geladen.
+   - *IBM Runtime* Installation mittels: pip install qiskit_ibm_runtime. (Die Qiskit-IBM-Runtime benötigen Sie nur, falls Sie Ihre Schaltkreise auf einen IBM-Quantencomputer ausführen wollen. Für die Beispiele im Buch genügt ein Simulator, wie z. B. der QASM-Simulator.)
+7. Um das Jupyter Lab zu starten, öffnen sie die Konsole Anaconda Prompt oder Anaconda PowerShell, wechseln in ihre virtuelle Umgebung (mit activate ...) und starten anschliessend das Jupyter Lab (mit start jupyter lab). Danach wird das Jupyter Lab in einem Browswerfenster geladen.
 
 Falls Sie die neueste Version von Anaconda Navigator oder Miniconda3 heunterladen wollen, gehen Sie auf: [www.anaconda.com/download](https://www.anaconda.com/download)
 Hier muss man eine E-Mail Adresse eingeben, damit es weiter geht. Anschliessend kann man die gewünschte Installation wählen (Windowa, Mac, Linux).
