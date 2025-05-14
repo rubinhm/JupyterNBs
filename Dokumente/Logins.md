@@ -15,19 +15,22 @@ Anstatt die Notebooks ständig den neuesten Softwareversionen anzupassen, ist es
 3. Installieren Sie das Jupyter Lab in (Base): pip install jupyterlab / falls pip nicht installiert ist: conda install -c conda-forge jupyterlab
 4. (Nur falls  der Python Paketmanager pip nicht vorhanden sein sollte, installieren Sie ihn jetzt mittels: conda install pip)
 5. Nun wird die gewünschte Qiskit-Version installiert. Wir wählen: pip install qiskit==0.43.1
-6. Nun benötigen wir noch weitere Module für die verschiedenen Visualisierungen:
+6. Nun benötigen wir noch weitere Module für die verschiedenen Visualisierungen und die Verbindung zu IBM Quantum:
    - *MatPlotLib* Installation mittels: pip install matplotlib
    - *PyLatexEnc* Installation mittels: pip install pylatexenc
    - *Seaborn* Installation mittels: pip install seaborn
    - *IBM Runtime* Installation mittels: pip install qiskit_ibm_runtime. (Die Qiskit-IBM-Runtime benötigen Sie nur, falls Sie Ihre Schaltkreise auf einen IBM-Quantencomputer ausführen wollen. Für die Beispiele im Buch genügt ein Simulator, wie z. B. der QASM-Simulator.)
-7. Um das Jupyter Lab zu starten, öffnen sie die Konsole Anaconda Prompt oder Anaconda PowerShell, wechseln in ihre virtuelle Umgebung (mit activate ...) und starten anschliessend das Jupyter Lab (mit start jupyter lab). Danach wird das Jupyter Lab in einem Browswerfenster geladen.
+7. Starten Sie schliesslich das Jupyter Lab (mit start jupyter lab). Danach wird das Jupyter Lab in einem Browswerfenster geladen.
 
 Falls Sie die neueste Version von Anaconda Navigator oder Miniconda3 heunterladen wollen, gehen Sie auf: [www.anaconda.com/download](https://www.anaconda.com/download)
 Hier muss man eine E-Mail Adresse eingeben, damit es weiter geht. Anschliessend kann man die gewünschte Installation wählen (Windowa, Mac, Linux).
 
 **Wichtig:** eine andere Python und Qiskit-Version sollten Sie in einer neuen virtuellen Umgebung installieren. In Jupyter Lab können Sie dann jeweils Version (Kernel) wählen.
 
-Für unsere Qiskit-Installation erstellen wir zuerst eine virtuelle Umgebung. Dazu gibt man ein: conda create --name  '*Umgebungsname*'.
+## Erstellen einer virtuellen Umgebung
+
+Eine virtuelle Umgebung benötigen Sie, falls Sie eine neuere Version von Python oder Qiskit installieren wollen oder falls Sie bereits eine Pyton und Qiskit Version installiert haben, müssen Sie die oben angegebenen Schritte in dieser neuen virtuellen Umgebung ausführen.
+Dazu geben sie in Ihrer (base)-Umgebung ein: conda create --name  '*Umgebungsname*'.
  '*Umgebungsname*' ersetzen Sie durch den von Ihnen gewählten Namen. Im Installationsverzeichnis /miniconda3/envs/wird ein Ordner für Ihre virtuelle Umgebung mit dem von Ihnen gewählten Namen (*Umgebungsname*) erstellt.
 - Um in Ihre Umgebung zu kommen geben Sie am Prompt ein: activate *Umgebungsname*. Vor dem Prompt sehen Sie jetzt in runden Klammern ihre Umgebung (*Umgebungsname*)
 
