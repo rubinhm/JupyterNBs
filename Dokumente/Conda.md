@@ -1,6 +1,6 @@
 # Miniconda  und Qiskit lokal einrichten
 
-Hier wird Schritt für Schritt erklärt, wie Sie Qiskit und Jupyter Lab auf Ihrem Rechner lokal mit minimaler Umgebung einrichten können.
+Conda ist ein recht leistungsstarkes Kommandozeilen-Programm für das Management von Softwareumgebungen. Es ist kostenlos erhältlich für Windows macOS und Linux. Hier wird Schritt für Schritt erklärt, wie Sie mit Miniconda  Qiskit und Jupyter Lab auf Ihrem Rechner lokal eine minimale Umgebung zur Bearbeitung der Jupyter Notebooks zum Buch einrichten können. Ausführlichere Beschreibungen erhalten Sie von der (Website Getting started wirh conda)[https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html].
 
 Qiskit ist ein auf der Programmiersprache Python basierendes Software Entwicklungspaket (SDK) von IBM. Minikonda ist ein Software Paketmanager, der bereits Python enthält. Deshalb muss zuerst Miniconda installiert werden. In Miniconda kann dann Qiskit und anschliessend das Jupyter Lab installiert werden. Mit dem Jupyter Lab können die Notebooks zu diesem Buch laufen gelassen und editiert werden.
 
