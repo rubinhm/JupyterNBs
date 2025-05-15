@@ -47,6 +47,6 @@ Dazu geben Sie in Ihrer (base)-Umgebung ein: conda create --name  '*Umgebungsnam
 Mit dieser Installation wird die neueste Qiskit-Version installiert (>2.0.0). Ab Version 1 werden gewisse Funktionen nicht mehr unterstützt, wie z. B. execute oder BasicAer.
 Siehe dazu [docs.quantum.ibm.com/migration-guides/qiskit-1.0-features](https://docs.quantum.ibm.com/migration-guides/qiskit-1.0-features)
 
-Die in diesem Repository enthaltenen Notbooks laufen gut unter Qiskit bis Version 0.43. Ab Version >1 bitte den o. g. Migrationsguide beachten. Vielleicht hilft ggf. auch dieser [Link](https://schrodinteq.github.io/venv/){:target="_blank"} weiter. Er beschreibt, wie man die Version 0.43 von Qiskit installieren kann.
+Die in diesem Repository enthaltenen Notbooks laufen gut unter Qiskit bis Version 0.43. Ab Version >1 bitte den o. g. Migrationsguide beachten. Vielleicht hilft ggf. auch dieser [Link](https://schrodinteq.github.io/venv/) weiter. Er beschreibt, wie man die Version 0.43 von Qiskit installieren kann.
 
 
