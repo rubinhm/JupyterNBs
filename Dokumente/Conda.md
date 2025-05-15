@@ -2,11 +2,11 @@
 
 Conda ist ein recht leistungsstarkes Kommandozeilen-Programm für das Management von Softwareumgebungen. Es ist kostenlos erhältlich für Windows macOS und Linux. Hier wird Schritt für Schritt erklärt, wie Sie mit Miniconda  Qiskit und Jupyter Lab auf Ihrem Rechner lokal eine minimale Umgebung zur Bearbeitung der Jupyter Notebooks zum Buch einrichten können. Ausführlichere Beschreibungen erhalten Sie von der Website [Getting started wirh conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).
 
-Qiskit ist ein auf der Programmiersprache Python basierendes Software Entwicklungspaket (SDK) von IBM. Minikonda ist ein Software Paketmanager, der bereits Python enthält. Deshalb muss zuerst Miniconda installiert werden. In Miniconda kann dann Qiskit und anschliessend das Jupyter Lab installiert werden. Mit dem Jupyter Lab können die Notebooks zu diesem Buch laufen gelassen und editiert werden.
+Qiskit ist ein auf der Programmiersprache Python basierendes Software Entwicklungspaket (SDK) von IBM. Minikonda ist ein Software Paketmanager, der bereits Python enthält. Deshalb muss zuerst Miniconda installiert werden. Damit kann dann das Jupyter Lab und anschliessend Qiskit installiert werden. Mit dem Jupyter Lab können die Notebooks zu diesem Buch laufen gelassen und editiert werden.
 
 Seit der Drucklegung dieses Buches haben sich die Plattformen (IBMQ, Qiskit und Python) weiterentwickelt. Die zur Drucklegung dieses Buches entwickelten Jupyter Notebooks laufen bereits mit den neuesten Versionen von Qiskit und Pythtn nicht mehr fehlerfrei. 
 
-Anstatt die Notebooks ständig den neuesten Softwareversionen anzupassen, ist es einfacher diejenigen Versionen von Python und Qiskit zu installieren, mit denen die Notebooks stabil laufen. Zur Installation verwenden wir hier Minikonda3 in der Version mit Python 3.11. Diese Version kann unter [https://repo.anaconda.com/miniconda/](https://repo.anaconda.com/miniconda/) heruntergeladen werden. Es stehen Versionen für Windows, MacOS und Linux zur verfügung. Für Windows und ein 64-Bit System suchen Sie Miniconda3-py311_25.3.1-1-Windows-x86_64.exe und laden dieses Installationsprogramm auf ihren Rechner.
+Anstatt die Notebooks ständig den neuesten Softwareversionen anzupassen, ist es einfacher diejenigen Versionen von Python und Qiskit zu installieren, mit denen die Notebooks stabil laufen. Zur Installation verwenden wir hier Minikonda3 in der Version mit Python 3.11.11 Diese Version kann unter [https://repo.anaconda.com/miniconda/](https://repo.anaconda.com/miniconda/) heruntergeladen werden. Es stehen Versionen für Windows, macOS und Linux zur verfügung. Für Windows und ein 64-Bit System suchen Sie Miniconda3-py311_25.3.1-1-Windows-x86_64.exe in der Liste und laden dieses Installationsprogramm auf ihren Rechner. Die folgenden Installationsschritte gelten für eine Neuinstallation ohne vorherige Versionen von Python und Qiskit.
 
 ## Installationsschritte
 
@@ -25,14 +25,14 @@ Anstatt die Notebooks ständig den neuesten Softwareversionen anzupassen, ist es
 Falls Sie die neueste Version von Anaconda Navigator oder Miniconda3 heunterladen wollen, gehen Sie auf: [www.anaconda.com/download](https://www.anaconda.com/download)
 Hier muss man eine E-Mail Adresse eingeben, damit es weiter geht. Anschliessend kann man die gewünschte Installation wählen (Windowa, Mac, Linux).
 
-**Wichtig:** eine andere Python und Qiskit-Version sollten Sie in einer neuen virtuellen Umgebung installieren. In Jupyter Lab können Sie dann jeweils Version (Kernel) wählen.
+**Wichtig:** eine andere Python- und Qiskit-Version sollten Sie in einer neuen virtuellen Umgebung installieren. In Jupyter Lab können Sie dann jeweils Version (Kernel) wählen.
 
 ## Erstellen einer virtuellen Umgebung
 
 Eine virtuelle Umgebung benötigen Sie, falls Sie eine neuere Version von Python oder Qiskit installieren wollen oder falls Sie bereits eine Python und Qiskit Version installiert haben, müssen Sie die oben angegebenen Schritte in dieser neuen virtuellen Umgebung ausführen.
-Dazu geben sie in Ihrer (base)-Umgebung ein: conda create --name  '*Umgebungsname*'.
+Dazu geben Sie in Ihrer (base)-Umgebung ein: conda create --name  '*Umgebungsname*'.
  '*Umgebungsname*' ersetzen Sie durch den von Ihnen gewählten Namen. Im Installationsverzeichnis /miniconda3/envs/wird ein Ordner für Ihre virtuelle Umgebung mit dem von Ihnen gewählten Namen (*Umgebungsname*) erstellt.
-- Um in Ihre Umgebung zu kommen geben Sie am Prompt ein: activate *Umgebungsname*. Vor dem Prompt sehen Sie jetzt in runden Klammern ihre Umgebung (*Umgebungsname*)
+- Um in Ihre Umgebung zu kommen, geben Sie am Prompt ein: activate *Umgebungsname*. Vor dem Prompt sehen Sie jetzt in runden Klammern ihre Umgebung (*Umgebungsname*)
 
 
 ## Anleitungen aus dem Web
