@@ -40,7 +40,7 @@ Schliesslich bleiben noch die Scheibchen am rechten Ende des Schaltkreises zu er
 
 Der Durchmesser des schwarzen Kreises gibt den Verschränkungsgrad mit den anderen Qubits an. Ist der Durchmesser $1$, ist das Qubit nicht verschränkt. Ist der Durchmesser $0.5$, dann liegt maximale Verschränkung vor. Liegt der Durchmesser zwischen $0.5$ und $1$, liegt teilweise Verschränkung vor. Der Füllstand mit blauer Farbe gibt Auskunft darüber, wie gross der Anteil des Zustands $\left|1\right\rangle$ am jeweiligen Qubit-Zustand ist. Da das Register im Zustand $1/\sqrt{2}\left|00\right\rangle+1/\sqrt{2}\left|11\right\rangle$ ist, beträgt dieser Anteil bei beiden Qubits am Gesamtzustand je $0.5$ und die Scheiben sind daher je halb gefüllt. Schliesslich gibt der Zeiger Auskunft über die Phase des $\left|1\right\rangle$-Anteils. Aufgrund des Pluszeichens vor $\left| 11\right\rangle$ zeigt der Zeiger nach rechts, was einem Phasenwinkel in der Bloch-Kugel von $0$° entspricht.
 
-Abgeschlossen wird eine Quantenberechnung durch eine Messung (hier nicht gezeichnet). Dazu zieht man das Messymbol (halbkreisförmige Skala mit Zeiger und dem Buchstaben z) auf die Linien der zu messenden Qubits.
+Abgeschlossen wird eine Quantenberechnung durch eine Messung (hier nicht gezeichnet). Dazu zieht man das Messymbol (halbkreisförmige Skala mit Zeiger und dem Buchstaben *z* auf die Linien der zu messenden Qubits.
 
 
 
