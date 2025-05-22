@@ -1,5 +1,5 @@
 # JupyterNBs
-In diesem Repository finden Sie  alle **Jupyter Notebooks** zum Buch *Von der Quantenmechanik zum Quantencomputer*.
+In diesem Repository finden Sie  alle **Jupyter Notebooks** zum Buch *Vom Doppelspalt zum Quantencomputer*.
 
 <img src="Bilder\cover.jpg" width="360 px">  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <img src="Bilder\Sachbuch.jpg" width="337 px">
 
