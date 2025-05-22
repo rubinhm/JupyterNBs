@@ -20,7 +20,7 @@ Starten Sie den Navigator erneut. In der linken Spalte sehen Sie die Punkte Home
 - *Powershell Prompt* und *Anaconda Prompt* sind zwei Kommandozeilen-Programme. In denen Sie die weiteren Befehle eingeben müssen. Hier installieren Sie die für uns wichtige Qiskit-Version 0.43.1 sowie die weiteren erforderlichen Module gemäss folgender Liste:
     - `pip install qiskit==0.43.1`
     - `pip install matplotlib`
-    - `pip install pyltexenc`
+    - `pip install pylatexenc`
     - `pip install seaborn`
 
 Falls Sie beabsichtigen, Ihre Schaltkreise auf einem IBM Quantencomputer laufen zu lassen, installieren Sie abschliessen (oder später) die ibm.runtime mit `pip install qiskit-ibm-runtime`.
