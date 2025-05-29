@@ -1,7 +1,7 @@
 # JupyterNBs
 In diesem Repository finden Sie  alle **Jupyter Notebooks** zum Buch *Vom Doppelspalt zum Quantencomputer*.
 
-<img src="Bilder\CoverDraft.jpg" width="600 px">  
+<img src="Bilder\CoverDraft.jpg" width="800 px">  
 
 **Rückentext**
 
